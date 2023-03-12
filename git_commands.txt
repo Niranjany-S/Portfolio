@@ -1,0 +1,20 @@
+GIT COMMANDS:
+
+git --version
+
+git init
+
+
+ssh-keygen -t ed25519 -C "niranjany2002@gmail.com"
+
+
+
+ssh-keygen -t rsa -b 4096 -C "niranjany2002@gmail.com"
+
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_rsa
+
+clip < ~/.ssh/id_rsa.pub
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCv5Km/D4HvRepuOuouJR+mkcSX/YhAFN376Tg6YEK0OqF67op59XIiZDo0hXlLCtoSUi61Zvm4DNvVdTxiulRHKRE9lw+23IVg+H4s08Obliq9h+MNg6pgpuPrQM8xJT6Io4AGYF09s59deOtzul0iwvtfHzaiW/YxhTfhoYt0PKWeJh1ZNyo3y+m2c4VXrgGR7bucc+67qVoQqzQOdrSzvmi/Jp1iB3wGxOBi5NuloobnfuTC4MlFvroAIOFkHCCN0hyPkkuQ7Yv+lPe4lzH94Qh5rUQuCPMWpAlfdpiAut38BN7amKghP1mRAhVvEqSE/hbFKsk8Gk5CQlJe78zi//FxAEc9pxNPSgL8XnBxy9pc++3QzNUZ5DhHfifr0Uf43REY6QAvAmqlVIna01b93KEhf6RAJEmPpCaayAD5C1DYkXztwytEjxoc9pS5TquN0q64z/Lma5Kg8coiZlcDbOTvSYas+tCJV6YXrieEiIxBsK381hjaHvhpcerBPaUIdvzb1DFJLB9aeUNIBtBAPSUrRn9CAACkpdi4DWUYr3yBCe55OL4UVTMGfcW8jWXsIQhy2ZuInQ29ApgDDA3eu59mds3EegG5S3bZzUtlLbI1QLEsUA8CU41xMPBLGzlr7GrnLQbXQqjzhDjLAMI79bEJJCITAdK2FL0INYQloQ== niranjany2002@gmail.com
